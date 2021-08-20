@@ -1,18 +1,18 @@
 /*
- * 3.Certo aço é classificado de acordo com o resultado de três testes, que 
- * devem verificar se o mesmo satisfaz às seguintes especificações:
- *Teste 1- conteúdo de carbono abaixo de 7%;
+ * 3.Certo aï¿½o ï¿½ classificado de acordo com o resultado de trï¿½s testes, que 
+ * devem verificar se o mesmo satisfaz ï¿½s seguintes especificaï¿½ï¿½es:
+ *Teste 1- conteï¿½do de carbono abaixo de 7%;
  *Teste 2- dureza Rokwell maior que 50;
- *Teste 3- resistência à tração maior do que 80.000 psi.
+ *Teste 3- resistï¿½ncia ï¿½ traï¿½ï¿½o maior do que 80.000 psi.
 
- *Ao aço é atribuído o grau 10, se passa pelos três testes;
+ *Ao aï¿½o ï¿½ atribuï¿½do o grau 10, se passa pelos trï¿½s testes;
  *9, se passa apenas nos testes 1 e 2; 
  *8 , se passa no teste 1; 
  *e 7, para as outras alternativas. 
 
- *Supondo que sejam lidos de uma unidade de entrada o número de amostra, 
- *conteúdo de carbono, a dureza Rokwell e a resistência à tração faça um
- *programa que leia os dados de uma amostra de aço, escrevendo para ela 
+ *Supondo que sejam lidos de uma unidade de entrada o nï¿½mero de amostra, 
+ *conteï¿½do de carbono, a dureza Rokwell e a resistï¿½ncia ï¿½ traï¿½ï¿½o faï¿½a um
+ *programa que leia os dados de uma amostra de aï¿½o, escrevendo para ela 
  *o grau obtido
 */
 
@@ -25,15 +25,15 @@ public class ControlaAmostra {
 		Scanner leia = new Scanner(System.in);
 		System.out.print("Digite o codigo da amostra: ");
 		int codigo = leia.nextInt();
-		System.out.print("O conteúdo de carbono.....: ");
+		System.out.print("O conteï¿½do de carbono.....: ");
 		int carbono = leia.nextInt();
 		System.out.print("A dureza Rokwell..........: ");
 		int dureza = leia.nextInt();
-		System.out.print("A resistência a tração....: ");
+		System.out.print("A resistï¿½ncia a traï¿½ï¿½o....: ");
 		int resistencia = leia.nextInt();
 		
 		Amostra amostra = new Amostra(codigo, carbono, dureza, resistencia);
-		System.out.print("Grau da amostra do aço....: "+ amostra.informaGrau());
+		System.out.print("Grau da amostra do aï¿½o....: "+ amostra.informaGrau());
 	}
 
 }
