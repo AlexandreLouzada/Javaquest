@@ -8,11 +8,11 @@ public class Programa {
 		Scanner leia = new Scanner(System.in);
 		String matricula, cpf, nome;
 		System.out.println("CADASTRO DE CURSO");
-		System.out.print("Digite o código: ");
+		System.out.print("Digite o codigo: ");
 		int codigo = leia.nextInt();
-		System.out.print("Digite a descrição: ");
+		System.out.print("Digite a descri??o: ");
 		String descricao = leia.next();
-		leia.close();
+		
 		Curso curso = new Curso(codigo, descricao);
 		System.out.println("CADASTRO DE PROFESSORES");
 		for (int i = 0; i <= 2; i++) {
@@ -25,5 +25,6 @@ public class Programa {
 			Professor prof = new Professor(matricula, cpf, nome);
 			curso.addProfessor(prof);
 		}
+		leia.close();
 	}
 }
