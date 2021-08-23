@@ -1,18 +1,18 @@
 /*
- * 3.Certo a�o � classificado de acordo com o resultado de tr�s testes, que 
- * devem verificar se o mesmo satisfaz �s seguintes especifica��es:
- *Teste 1- conte�do de carbono abaixo de 7%;
+ * 3.Certo aço é classificado de acordo com o resultado de três testes, que 
+ * devem verificar se o mesmo satisfaz as seguintes especificações:
+ *Teste 1- conteúdo de carbono abaixo de 7%;
  *Teste 2- dureza Rokwell maior que 50;
- *Teste 3- resist�ncia � tra��o maior do que 80.000 psi.
+ *Teste 3- resistência à tração maior do que 80.000 psi.
 
- *Ao a�o � atribu�do o grau 10, se passa pelos tr�s testes;
+ *Ao aço é atribuído o grau 10, se passa pelos três testes;
  *9, se passa apenas nos testes 1 e 2; 
  *8 , se passa no teste 1; 
  *e 7, para as outras alternativas. 
 
- *Supondo que sejam lidos de uma unidade de entrada o n�mero de amostra, 
- *conte�do de carbono, a dureza Rokwell e a resist�ncia � tra��o fa�a um
- *programa que leia os dados de uma amostra de a�o, escrevendo para ela 
+ *Supondo que sejam lidos de uma unidade de entrada o número de amostra, 
+ *conteúdo de carbono, a dureza Rokwell e a resistência a tração fará um
+ *programa que leia os dados de uma amostra de aço, escrevendo para ela 
  *o grau obtido
 */
 
@@ -25,15 +25,15 @@ public class ControlaAmostra {
 		Scanner leia = new Scanner(System.in);
 		System.out.print("Digite o codigo da amostra: ");
 		int codigo = leia.nextInt();
-		System.out.print("O conte�do de carbono.....: ");
+		System.out.print("O conteúdo de carbono.....: ");
 		int carbono = leia.nextInt();
 		System.out.print("A dureza Rokwell..........: ");
 		int dureza = leia.nextInt();
-		System.out.print("A resist�ncia a tra��o....: ");
+		System.out.print("A resistência a tração....: ");
 		int resistencia = leia.nextInt();
 		
 		Amostra amostra = new Amostra(codigo, carbono, dureza, resistencia);
-		System.out.print("Grau da amostra do a�o....: "+ amostra.informaGrau());
+		System.out.print("Grau da amostra do aço....: "+ amostra.informaGrau());
 	}
 
 }
