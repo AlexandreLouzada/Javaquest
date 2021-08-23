@@ -23,6 +23,7 @@ public class ControlaProduto {
 		double valorUnitario=leia.nextDouble();
 		System.out.print("Digite a forma de pagamento...: ");
 		int formaPagamento=leia.nextInt();
+		leia.close();
 		
 		Produto produto = new Produto(codigo,quantidade,valorUnitario,formaPagamento);
         

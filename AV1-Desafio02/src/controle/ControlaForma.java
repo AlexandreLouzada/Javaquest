@@ -27,6 +27,8 @@ public class ControlaForma {
 		
 		System.out.print("Digite terceiro valor: ");
 		float lado3 = leia.nextFloat();
+
+		leia.close();
 		
 		Forma forma = new Forma(lado1,lado2,lado3);
 		

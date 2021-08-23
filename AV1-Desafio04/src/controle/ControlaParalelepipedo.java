@@ -22,6 +22,7 @@ public class ControlaParalelepipedo {
 		
 		System.out.print("Digite terceira aresta: ");
 		float aresta3 = leia.nextFloat();
+		leia.close();
 		
 		Paralelepipedo paralelepipedo = new Paralelepipedo(aresta1,aresta2,aresta3);
 		

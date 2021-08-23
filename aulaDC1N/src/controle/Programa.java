@@ -12,6 +12,7 @@ public class Programa {
 		int codigo = leia.nextInt();
 		System.out.print("Digite a descrição: ");
 		String descricao = leia.next();
+		leia.close();
 		Curso curso = new Curso(codigo, descricao);
 		System.out.println("CADASTRO DE PROFESSORES");
 		for (int i = 0; i <= 2; i++) {

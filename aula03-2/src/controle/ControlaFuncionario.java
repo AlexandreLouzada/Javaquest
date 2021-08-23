@@ -11,6 +11,7 @@ public class ControlaFuncionario {
 		String nome = leia.nextLine();
 		System.out.print("Digite o salário base: R$ ");
 		float salarioBase = leia.nextFloat();
+		leia.close();
 
 		Funcionario funcionario = new Funcionario(nome,salarioBase);
         System.out.println("Desconto - INSS: R$ " + funcionario.descontoInss());

@@ -25,6 +25,7 @@ public class ControlaMae {
 		int pressao1 = leia.nextInt();
 		System.out.print("Digite o segundo valor da pressão: ");
 		int pressao2 = leia.nextInt();
+		leia.close();
 		
 		Mae mamae = new Mae(cpf,nome,data,pressao1,pressao2);
 		

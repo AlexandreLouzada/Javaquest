@@ -16,6 +16,7 @@ public class ControlaMassa {
 		
 		System.out.print("Digite a massa inicial em gramas: ");
 		float massaInicial = leia.nextFloat();
+		leia.close();
 		
 		Massa massa = new Massa(massaInicial);
 		massa.calculaTempo();

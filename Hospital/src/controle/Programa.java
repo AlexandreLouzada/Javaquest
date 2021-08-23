@@ -15,6 +15,7 @@ public class Programa {
 		String cpf = leia.nextLine();
 		System.out.print("Digite o nome: ");
 		String nome = leia.nextLine();
+		leia.close();
 		Medico med = new Medico(crm, cpf, nome);
 		System.out.println("CADASTRO DE PARTOS");
 		char resposta = 'S';

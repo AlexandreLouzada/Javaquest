@@ -12,6 +12,7 @@ public class Programa {
 		String telefone = leia.nextLine();
 		System.out.print("Digite 1 para PF e 2 para PJ: ");
 		int opcao = leia.nextInt();
+		leia.close();
 		
 		switch (opcao) {
 			case 1:

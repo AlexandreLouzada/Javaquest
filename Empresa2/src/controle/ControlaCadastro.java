@@ -16,6 +16,7 @@ public class ControlaCadastro {
 		String cpf = leia.nextLine();
 		System.out.print("Digite o nome do Funcionário: ");
 		String nome = leia.nextLine();
+		leia.close();
 		
 		Funcionario func = new Funcionario(cpf,nome,setor);
 		setor.addFuncionario(func);

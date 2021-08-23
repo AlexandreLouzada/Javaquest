@@ -14,6 +14,6 @@ public class ControleCadastroSetor {
 		String descr = leia.nextLine();
 		listaSetor[i] = new Setor(sigla,descr);
 		}
-		
+		leia.close();
 	}
 }

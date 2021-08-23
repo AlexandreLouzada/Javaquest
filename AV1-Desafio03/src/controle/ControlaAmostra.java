@@ -31,6 +31,8 @@ public class ControlaAmostra {
 		int dureza = leia.nextInt();
 		System.out.print("A resistência a tração....: ");
 		int resistencia = leia.nextInt();
+
+		leia.close();
 		
 		Amostra amostra = new Amostra(codigo, carbono, dureza, resistencia);
 		System.out.print("Grau da amostra do aço....: "+ amostra.informaGrau());
