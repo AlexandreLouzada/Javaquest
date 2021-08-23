@@ -1,9 +1,9 @@
 /*
- * 1.Faça um programa que leia o código, a quantidade, o pre�o unit�rio e 
- * a forma de pagamento:
- * (1 � Dinheiro, 2 � Cheque, 3 � Cart�o d�bito, 4 � Cart�o cr�dito) 
+ * 1.Faça um programa que leia o código, a quantidade, o preço unitário e 
+ * a forma de pagamento 
+ * * (1 - Dinheiro, 2 - Cheque, 3 - Cartão débito, 4 - Cartão crédito) 
  * de um produto. Pagamentos em dinheiro recebem um desconto de 10%, 
- * em cart�o 5% e em cheque 2%. O programa deve informar o valor do 
+ * em cartão 5% e em cheque 2%. O programa deve informar o valor do 
  * desconto e o valor final a pagar.
  */
 
@@ -15,11 +15,11 @@ public class ControlaProduto {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.print("Digite o c�digo do produto....: ");
+		System.out.print("Digite o código do produto....: ");
 		int codigo = leia.nextInt();
 		System.out.print("Digite quantidade.............: ");
 		int quantidade = leia.nextInt();
-		System.out.print("Digite o valor unit�rio.......: ");
+		System.out.print("Digite o valor unitário.......: ");
 		double valorUnitario=leia.nextDouble();
 		System.out.print("Digite a forma de pagamento...: ");
 		int formaPagamento=leia.nextInt();
