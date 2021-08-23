@@ -19,6 +19,6 @@ public class Parto {
 		this.hora = hora;
 	}
 	public void setMed(Medico med) {
-		this.med = med;
+//		this.med = med;
 	}
 }

@@ -27,6 +27,6 @@ public class Professor {
 		this.nome = nome;
 	}
 	public void setCurso(Curso curso) {
-		this.curso = curso;
+//		this.curso = curso;
 	}
 }

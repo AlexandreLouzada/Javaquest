@@ -3,6 +3,7 @@ import dominio.*;
 import java.util.Scanner;
 
 public class ControleCadastroSetor {
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		Setor[] listaSetor = null;
