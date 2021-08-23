@@ -1,7 +1,7 @@
 package dominio;
 public class Parto {
 	private String data, hora;
-	private Medico med;
+//	private Medico med;
 	public Parto(String data, String hora) {
 		this.data = data;
 		this.hora = hora;

@@ -13,6 +13,7 @@ public class ControleCadastroSetor {
 		System.out.print("Digite a descrição do Setor: ");
 		String descr = leia.nextLine();
 		listaSetor[i] = new Setor(sigla,descr);
+				
 		}
 		leia.close();
 	}

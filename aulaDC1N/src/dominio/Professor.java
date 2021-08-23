@@ -2,7 +2,7 @@ package dominio;
 
 public class Professor {
 	private String matricula, cpf, nome;
-	private Curso curso;
+//	private Curso curso;
 	public Professor(String matricula, String cpf, String nome) {
 		this.matricula = matricula;
 		this.cpf = cpf;
