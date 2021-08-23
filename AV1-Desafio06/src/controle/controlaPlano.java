@@ -24,7 +24,7 @@ public class controlaPlano {
 		System.out.print("Ponto 'B' - coordenada y: ");
 		float valor4 = leia.nextFloat();
 		leia.close();
-		
+
 		Plano plano = new Plano(valor1,valor2,valor3,valor4);
 		
 		System.out.print("Distância entre os dois pontos:  " + plano.calculaDistancia());

@@ -1,6 +1,5 @@
 package controle;
 import java.util.Scanner;
-import java.util.Vector;
 import dominio.Medico;
 import dominio.Parto;
 

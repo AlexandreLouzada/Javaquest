@@ -1,5 +1,4 @@
 package dominio;
-import java.math.*;
 
 public class Plano {
 	private float x1;
