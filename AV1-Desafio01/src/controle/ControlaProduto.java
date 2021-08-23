@@ -1,5 +1,5 @@
 /*
- * 1.Fa�a um programa que leia o c�digo, a quantidade, o pre�o unit�rio e 
+ * 1.Faça um programa que leia o código, a quantidade, o pre�o unit�rio e 
  * a forma de pagamento:
  * (1 � Dinheiro, 2 � Cheque, 3 � Cart�o d�bito, 4 � Cart�o cr�dito) 
  * de um produto. Pagamentos em dinheiro recebem um desconto de 10%, 
