@@ -8,7 +8,7 @@ public class Produto {
 	private int formaPagamento;
 
 	public Produto(int codigo, int quantidade, double valorUnitario, int formaPagamento) {
-		super();
+		 
 		this.codigo = codigo;
 		this.quantidade = quantidade;
 		this.valorUnitario = valorUnitario;

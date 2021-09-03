@@ -33,19 +33,19 @@ public class Forma {
 	public String verificaForma() {
 		if(x < y + z && y < x + z && z < x + y)   {
 			if(x==z && z==y) {
-				return "triângulo equilátero";
+				return "triangulo equilatero";
 			}
 
 			else if(x==y || z==y || x==z) {
-				return "triângulo isosceles";
+				return "triangulo isosceles";
 			}
 
 			else
-				return "triângulo escaleno";
+				return "triangulo escaleno";
 		}
 
 		else
-			return "não é um triângulo";
+			return "não eh um triangulo";
 	}
 
 }

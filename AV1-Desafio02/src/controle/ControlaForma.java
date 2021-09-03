@@ -32,7 +32,7 @@ public class ControlaForma {
 		
 		Forma forma = new Forma(lado1,lado2,lado3);
 		
-		System.out.println("Resultado da análise dos três valores: " + forma.verificaForma());
+		System.out.println("Resultado da analise dos tres valores: " + forma.verificaForma());
 	}
 
 }
