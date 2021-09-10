@@ -6,7 +6,7 @@ public class Massa {
 	private int tempo;
 
 	public Massa(float massaInicial) {
-		super();
+		
 		this.massaInicial = massaInicial;
 	}
 
