@@ -17,6 +17,7 @@ public class ControlaCarro {
         colecionador.getColecao().add(carro3);
 
         System.out.println(colecionador.getNome());
-        System.out.println(colecionador.getColecao());
+        //System.out.println(colecionador.getColecao());
+
 	}
 }

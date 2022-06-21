@@ -61,5 +61,4 @@ public class Produto {
 		public double valorFinal() {
 			return quantidade*valorUnitario-calculaDesconto();				
 	}
-	
 }
