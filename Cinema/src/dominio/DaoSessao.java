@@ -12,12 +12,12 @@ public class DaoSessao {
 		String sql = "INSERT INTO sessao (data, hora, filme, sala) VALUES ('" + data + "', '" + hora + "', '" + filme + "', " + sala + ")";
 	
 		try {
-			Connection conexao = DriverManager.getConnection(url, "postgres", "postgres");
+			Connection conexao = DriverManager.getConnection(url, "postgres", "lzd144");
 			PreparedStatement inclusao = conexao.prepareStatement(sql);
 			inclusao.execute();
 		}
 		catch (SQLException e) {
-			System.out.println("Não foi possível acessar o BD");
+			System.out.println("Nao foi possivel acessar o BD");
 		}
 	}
 }
